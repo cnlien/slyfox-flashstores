@@ -2,28 +2,21 @@
 @import '../../styles/mixins.scss';
 
 .features {
-    padding-top: 40px;
-
-    h2 {
-        color: $orange;
-        font-size: 20px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    p {
-        color: $grey;
-        font-size: 14px;
-    }
-
+    @include container-padding;
+    
     .features-row {
 
-        border: solid green;
+        display: flex;
         flex-flow: row nowrap;
-        max-width: 100%;
 
         .features-col {
+            flex-flow: column wrap;
+            min-width: 300px;
             flex-grow: 1;
+
+            img {
+                max-width: 100%;
+            }
         }
 
         .center-col {
@@ -32,5 +25,17 @@
         }
     
     }
+
+    h2 {
+        color: $orange;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    p {
+        color: $grey;
+        font-size: .8rem;
+    }
+
 
 }

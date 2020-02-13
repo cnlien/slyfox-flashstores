@@ -1,0 +1,10 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.how-it-works {
+    @include container-padding;
+    
+    h2 {
+        color: $orange;
+    }
+}

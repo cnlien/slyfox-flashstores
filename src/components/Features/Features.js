@@ -5,6 +5,9 @@ import { Container, Col, Row } from 'reactstrap'
 import './Features.scss';
 
 import CustomStoresReimagined from '../../images/l4252-DesktopMock.png';
+import CuratedCatalog from '../../images/smartmockups_k6i84m4b.png';
+import RevenueSharing from '../../images/smartmockups_k6icpju8.png';
+
 
 const Features =()=> {
     
@@ -20,14 +23,14 @@ const Features =()=> {
                 <Col className="center-col features-col">
                     <h2>A Curated Catalog</h2>
                     <p>We’ve already done the hard work of browsing through the thousands of products and apparel and have selected a hand-picked, curated catalog of the most popular and best priced items for you to choose from.</p>
-                    <img src={CustomStoresReimagined} alt="hi" />
+                    <img src={CuratedCatalog} alt="hi" />
 
                 </Col>
 
                 <Col className="features-col">
                     <h2>Revenue Sharing</h2>
                     <p>We’ve already done the hard work of browsing through the thousands of products and apparel and have selected a hand-picked, curated catalog of the most popular and best priced items for you to choose from.</p>
-                    <img src={CustomStoresReimagined} alt="hi" />
+                    <img src={RevenueSharing} alt="hi" />
 
                 </Col>
             </Row>

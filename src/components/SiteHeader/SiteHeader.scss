@@ -6,7 +6,7 @@
     max-height: 600px;
     background: transparent $orange-gradient no-repeat padding-box;
     opacity: 1;
-        @include flex-center;
+    @include flex-center;
 
     .header-container-inner {
 
