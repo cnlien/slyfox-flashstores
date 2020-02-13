@@ -1,0 +1,38 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.header-container {
+    width: 100%;
+    max-height: 600px;
+    background: transparent $orange-gradient no-repeat padding-box;
+    opacity: 1;
+        @include flex-center;
+
+    .header-container-inner {
+
+        @include flex-center;
+        margin: 20px;
+
+        
+        h1 {
+            font-size: 40px;
+    
+            span {
+                font-weight: bold;
+            }
+        }
+    
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .header-img {
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+
+}
