@@ -6,6 +6,9 @@
     @include container-padding;
     @include flex-center;
 
+    @media (max-width: $large) {
+        flex-flow: column wrap;
+    }
 
     p {
         font-size: 14px;
@@ -14,6 +17,14 @@
     .standards-list {
         display: flex;
         flex-flow: row nowrap;
+        .list {order: 0;}
+        .image {order: 1;}
+
+        @media (max-width: $large) {
+            flex-flow: column wrap;
+            .image {order: 0;}
+            .list {order: 2;}
+        }
 
         ul {
             padding-left: 20px;
@@ -28,6 +39,7 @@
 
     .mockup-image{
         width: 100%;
+        order: 1;
     }
 
 }

@@ -4,7 +4,10 @@
     align-items: center;
 }
 
+@mixin flex-mobile {
+    flex-flow: column nowrap;
+}
+
 @mixin container-padding {
     padding: 40px 0;
 }
-

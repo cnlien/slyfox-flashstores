@@ -8,20 +8,44 @@
 
         display: flex;
         flex-flow: row nowrap;
+        @media (max-width: $large) {
+            flex-flow: row wrap;
+        }
+
+
+
+        @media (max-width: $mobile) {
+            flex-flow: column nowrap;
+            margin: 0 40px;
+        }
 
         .features-col {
             flex-flow: column wrap;
             min-width: 300px;
             flex-grow: 1;
+            
+            @media (max-width: $mobile) {
+                margin-bottom: 30px;                
+            }
 
             img {
                 max-width: 100%;
             }
+            
         }
 
         .center-col {
             border-left: 1px solid $orange;
             border-right: 1px solid $orange;
+            
+            // @media (max-width: $mobile) {
+            //     border: none;
+            // }
+            @media (max-width: $large) {
+                border: none;
+                flex-flow: row wrap;
+            }
+    
         }
     
     }

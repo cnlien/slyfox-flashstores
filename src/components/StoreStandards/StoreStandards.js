@@ -16,7 +16,7 @@ const StoreStandards = (props) => {
             <Container className="store-standards-inner">
                  <div className="standards-list">
                     <Col-6>
-                    <h2>Store Standards & Requirements</h2>
+                        <h2>Store Standards & Requirements</h2>
                         <p>Each store has the following standard features and requirements that are included:</p>
 
                         <Row>

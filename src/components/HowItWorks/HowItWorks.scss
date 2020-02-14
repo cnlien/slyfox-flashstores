@@ -2,8 +2,8 @@
 @import '../../styles/mixins.scss';
 
 .how-it-works {
-    @include container-padding;
-    
+    padding: 40px 20px;
+
     h2 {
         color: $orange;
         font-weight: bold;
@@ -22,5 +22,16 @@
 
     .steps-top {
         margin-bottom: 20px;
+        @media (max-width: $mobile) {
+            flex-flow: column nowrap;
+            magin-bottom: 0;
+        }
     }
+
+    .steps-bottom {
+        @media (max-width: $mobile) {
+            flex-flow: column nowrap;
+        }
+    }
+
 }
