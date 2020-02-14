@@ -5,12 +5,14 @@ import { Container, Col } from 'reactstrap'
 
 import HeaderImage from '../../images/iphone-tablet-mock.png'
 import HeaderImageX2 from '../../images/iphone-tablet-mock@2x.png'
+import Logo from '../../images/logo-white.svg'
 
 const SiteHeader = () => {
     return(
         <header className="header-container">
             <Container className="header-container-inner">
                 <Col className="header-text">
+                    <img src={Logo} alt="Slyfox Logo" className="logo"/>
                     <h1><span>Custom Online</span><br />Apparel & Promotional Stores</h1>
                     <ul>
                         <li>Customized Layouts</li>
