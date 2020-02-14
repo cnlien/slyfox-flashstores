@@ -1,0 +1,38 @@
+{
+    "standards": 
+        [
+            {
+                "item": "1",
+                "description": "All stores open on a business weekday at 9 AM"
+            },
+
+            {
+                "item": "2",
+                "description": "All stores close on a business weekday at 4 PM"
+            },
+
+            {
+                "item": "3",
+                "description": "Custom store URL prefix for easy store access"
+            },
+
+            {
+                "item": "4",
+                "description": "Tax Exempt customers must provide the appropriate tax forms."
+            },
+
+            {
+                "item": "5",
+                "description": "Payments are made through the shopping cart via Paypal or by Credit Card"
+            },
+
+            {
+                "item": "6",
+                "description": "Artwork must be in vector format. If vector graphics can not be provided there may be additional fees included."
+            }
+        ]
+}
+
+
+
+

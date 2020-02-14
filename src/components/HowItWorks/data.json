@@ -1,0 +1,53 @@
+{
+    "steps": 
+        [
+            {
+                "step": "1",
+                "title": "Initial meeting",
+                "description": "Browse the curated catalog and select the products and colors you'd like."
+            },
+
+            {
+                "step": "2",
+                "title": "Submit Artwork",
+                "description": "Submit your own pre-designed artwork or set up a consult with one of our talented designers. Based on your product selection we'll mock each product up with your design."
+            },
+
+            {
+                "step": "3",
+                "title": "Build Your Site",
+                "description": "Our team of developers will build your store customized to your brand. 2 days before the store opens you'll receive a live link to determine if any changes need to be made to the store."
+            },
+
+            {
+                "step": "4",
+                "title": "Open The Store",
+                "description": "Keep your store open for as long as you'd like. Once the store is closed the orders will be calculated and one order will be placed for all of the items purchased."
+            },
+           
+            {
+                "step": "5",
+                "title": "Print The Items",
+                "description": "Once the items have been ordered we will imprint the items and typically have them delivered within 2 weeks."
+            },
+
+            {
+                "step": "6",
+                "title": "Disperse Orders",
+                "description": "Depending on how your store is set up your items will either be shipped directly to the customer or we'll deliver them to you for them to pick up."
+            },
+
+            {
+                "step": "7",
+                "title": "Disperse Revenue Share",
+                "description": "If you have set up revenue sharing we'll write you a check for the difference between your price and our base price."
+            },
+
+            {
+                "step": "8",
+                "title": "Close the Store",
+                "description": "Once everything has been shipped and the funds have been dispersed the store will be closed. Once you're ready to open it again we'll pick up exactly where we left off."
+            }
+
+        ]
+}

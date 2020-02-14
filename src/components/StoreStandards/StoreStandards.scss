@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.store-standards {
+    background: $orange;
+    @include container-padding;
+    @include flex-center;
+
+
+    p {
+        font-size: 14px;
+    }
+
+    .standards-list {
+        display: flex;
+        flex-flow: row nowrap;
+
+        ul {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 13px;
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .mockup-image{
+        width: 100%;
+    }
+
+}
